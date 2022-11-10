@@ -19,8 +19,8 @@ builder.Services.AddAuthentication("cookie")
   })
   .AddOAuth("youtube", o =>
   {
-    o.ClientId = "668395821690-7g3hdloat52i93lc8av5joqtr3gp1la9.apps.googleusercontent.com";
-    o.ClientSecret = "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";
+    o.ClientId = "668395821690-th8vvqfdd5kdroh0841bpoigevksg5ba.apps.googleusercontent.com";
+    o.ClientSecret = "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";
     o.SaveTokens = false;
     o.AuthorizationEndpoint = "https://accounts.google.com/o/oauth2/v2/auth";
     o.TokenEndpoint = "https://oauth2.googleapis.com/token";
